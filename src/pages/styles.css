@@ -1,0 +1,22 @@
+.w3-container {
+  display: grid;
+  grid-template-columns: 25% 25%;
+  grid-column-gap: 25px;
+  justify-content: center;
+}
+
+.w3-container::before {
+  content: none;
+}
+
+.w3-container::after {
+  content: none;
+}
+
+.email_login {
+  box-shadow: 2px 4px 5px gray;
+}
+
+.social_login {
+  box-shadow: 2px 4px 5px gray;
+}
